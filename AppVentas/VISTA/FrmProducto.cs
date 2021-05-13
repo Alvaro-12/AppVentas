@@ -81,6 +81,14 @@ namespace AppVentas.VISTA
             clear();
             Carga();
         }
+
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            ClsProductos cls= new ClsProductos();
+            cls.DeletProducto(Convert.ToInt32(TxtIdProducto.Text));
+            clear();
+            Carga();
+        }
     }
 
 }

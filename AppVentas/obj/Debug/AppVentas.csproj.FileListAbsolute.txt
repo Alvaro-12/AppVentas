@@ -27,7 +27,6 @@ E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.Properties.Resources.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmAccesoCruds.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmCliente.resources
-E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmDetalleVenta.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmDocumentos.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmUsuarios.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmVenta.resources
@@ -36,3 +35,4 @@ E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.csproj.CopyComplete
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.exe
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.pdb
+E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmProducto.resources
