@@ -47,6 +47,7 @@ namespace AppVentas.VISTA
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.comboBoxDocumento = new System.Windows.Forms.ComboBox();
             this.comboBoxCliente = new System.Windows.Forms.ComboBox();
+            this.BtnAccesos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -197,12 +198,22 @@ namespace AppVentas.VISTA
             this.comboBoxCliente.Size = new System.Drawing.Size(121, 21);
             this.comboBoxCliente.TabIndex = 19;
             // 
+            // BtnAccesos
+            // 
+            this.BtnAccesos.Location = new System.Drawing.Point(605, 195);
+            this.BtnAccesos.Name = "BtnAccesos";
+            this.BtnAccesos.Size = new System.Drawing.Size(121, 23);
+            this.BtnAccesos.TabIndex = 20;
+            this.BtnAccesos.Text = "Acceder a las tablas";
+            this.BtnAccesos.UseVisualStyleBackColor = true;
+            // 
             // FrmVenta
             // 
             this.AcceptButton = this.BtnBuscar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 414);
+            this.Controls.Add(this.BtnAccesos);
             this.Controls.Add(this.comboBoxCliente);
             this.Controls.Add(this.comboBoxDocumento);
             this.Controls.Add(this.BtnBuscar);
@@ -251,5 +262,6 @@ namespace AppVentas.VISTA
         private System.Windows.Forms.Button BtnBuscar;
         private System.Windows.Forms.ComboBox comboBoxDocumento;
         private System.Windows.Forms.ComboBox comboBoxCliente;
+        private System.Windows.Forms.Button BtnAccesos;
     }
 }

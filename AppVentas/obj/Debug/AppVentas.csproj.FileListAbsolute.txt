@@ -16,3 +16,4 @@ E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentas\obj\Debug\AppVent
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentas\obj\Debug\AppVentas.VISTA.FrmUsuarios.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentas\obj\Debug\AppVentas.VISTA.FrmCliente.resources
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentas\obj\Debug\AppVentas.VISTA.FrmDetalleVenta.resources
+E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentas\obj\Debug\AppVentas.VISTA.FrmAccesoCruds.resources

@@ -103,6 +103,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>sistema_ventasDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="VISTA\FrmAccesoCruds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA\FrmAccesoCruds.Designer.cs">
+      <DependentUpon>FrmAccesoCruds.cs</DependentUpon>
+    </Compile>
     <Compile Include="VISTA\FrmCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +151,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VISTA\FrmAccesoCruds.resx">
+      <DependentUpon>FrmAccesoCruds.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmCliente.resx">
       <DependentUpon>FrmCliente.cs</DependentUpon>
     </EmbeddedResource>
