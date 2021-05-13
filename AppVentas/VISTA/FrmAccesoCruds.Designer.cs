@@ -57,7 +57,7 @@ namespace AppVentas.VISTA
             // LblCliente
             // 
             this.LblCliente.AutoSize = true;
-            this.LblCliente.Location = new System.Drawing.Point(205, 13);
+            this.LblCliente.Location = new System.Drawing.Point(166, 13);
             this.LblCliente.Name = "LblCliente";
             this.LblCliente.Size = new System.Drawing.Size(74, 13);
             this.LblCliente.TabIndex = 1;
@@ -79,7 +79,7 @@ namespace AppVentas.VISTA
             // LblDetalleVenta
             // 
             this.LblDetalleVenta.AutoSize = true;
-            this.LblDetalleVenta.Location = new System.Drawing.Point(202, 124);
+            this.LblDetalleVenta.Location = new System.Drawing.Point(163, 124);
             this.LblDetalleVenta.Name = "LblDetalleVenta";
             this.LblDetalleVenta.Size = new System.Drawing.Size(106, 13);
             this.LblDetalleVenta.TabIndex = 3;
@@ -90,7 +90,7 @@ namespace AppVentas.VISTA
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AppVentas.Properties.Resources._2915664;
-            this.pictureBox4.Location = new System.Drawing.Point(208, 141);
+            this.pictureBox4.Location = new System.Drawing.Point(169, 141);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@ namespace AppVentas.VISTA
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AppVentas.Properties.Resources.descarga;
-            this.pictureBox2.Location = new System.Drawing.Point(208, 30);
+            this.pictureBox2.Location = new System.Drawing.Point(169, 30);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,7 +131,8 @@ namespace AppVentas.VISTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 208);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(287, 208);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -140,6 +141,7 @@ namespace AppVentas.VISTA
             this.Controls.Add(this.LblDocumentos);
             this.Controls.Add(this.LblCliente);
             this.Controls.Add(this.linkLabel1);
+            this.MaximizeBox = false;
             this.Name = "FrmAccesoCruds";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Acceso Tablas";
