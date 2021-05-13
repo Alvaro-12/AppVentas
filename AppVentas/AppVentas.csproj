@@ -212,6 +212,7 @@
       <DependentUpon>SistemaVenta.edmx</DependentUpon>
       <LastGenOutput>SistemaVenta.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\1045018.png" />
     <None Include="Resources\2915664.png" />
     <None Include="Resources\35920.png" />
     <None Include="Resources\descarga.png" />

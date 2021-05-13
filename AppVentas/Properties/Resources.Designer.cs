@@ -63,6 +63,16 @@ namespace AppVentas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1045018 {
+            get {
+                object obj = ResourceManager.GetObject("1045018", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2915664 {
             get {
                 object obj = ResourceManager.GetObject("2915664", resourceCulture);

@@ -121,9 +121,9 @@ namespace AppVentas.VISTA
             // 
             this.BtnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEliminar.ForeColor = System.Drawing.Color.Red;
-            this.BtnEliminar.Location = new System.Drawing.Point(141, 215);
+            this.BtnEliminar.Location = new System.Drawing.Point(168, 211);
             this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(109, 34);
+            this.BtnEliminar.Size = new System.Drawing.Size(127, 34);
             this.BtnEliminar.TabIndex = 7;
             this.BtnEliminar.Text = "Eliminar";
             this.BtnEliminar.UseVisualStyleBackColor = true;
@@ -132,12 +132,13 @@ namespace AppVentas.VISTA
             // 
             this.BtnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnActualizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.BtnActualizar.Location = new System.Drawing.Point(13, 215);
+            this.BtnActualizar.Location = new System.Drawing.Point(13, 211);
             this.BtnActualizar.Name = "BtnActualizar";
-            this.BtnActualizar.Size = new System.Drawing.Size(110, 34);
+            this.BtnActualizar.Size = new System.Drawing.Size(149, 34);
             this.BtnActualizar.TabIndex = 6;
             this.BtnActualizar.Text = "Actualizar";
             this.BtnActualizar.UseVisualStyleBackColor = true;
+            this.BtnActualizar.Click += new System.EventHandler(this.BtnActualizar_Click);
             // 
             // BtnGuardar
             // 
@@ -149,6 +150,7 @@ namespace AppVentas.VISTA
             this.BtnGuardar.TabIndex = 5;
             this.BtnGuardar.Text = "GUARDAR";
             this.BtnGuardar.UseVisualStyleBackColor = true;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // label3
             // 
@@ -211,6 +213,7 @@ namespace AppVentas.VISTA
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(443, 252);
             this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // IDProducto
             // 

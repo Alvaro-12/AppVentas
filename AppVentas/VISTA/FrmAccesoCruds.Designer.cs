@@ -81,15 +81,15 @@ namespace AppVentas.VISTA
             this.LblDetalleVenta.AutoSize = true;
             this.LblDetalleVenta.Location = new System.Drawing.Point(163, 124);
             this.LblDetalleVenta.Name = "LblDetalleVenta";
-            this.LblDetalleVenta.Size = new System.Drawing.Size(16, 13);
+            this.LblDetalleVenta.Size = new System.Drawing.Size(55, 13);
             this.LblDetalleVenta.TabIndex = 3;
             this.LblDetalleVenta.TabStop = true;
-            this.LblDetalleVenta.Text = "...";
+            this.LblDetalleVenta.Text = "Productos";
             this.LblDetalleVenta.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LblDetalleVenta_LinkClicked);
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::AppVentas.Properties.Resources._2915664;
+            this.pictureBox4.Image = global::AppVentas.Properties.Resources._1045018;
             this.pictureBox4.Location = new System.Drawing.Point(169, 141);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 50);

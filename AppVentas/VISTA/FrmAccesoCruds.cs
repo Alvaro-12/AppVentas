@@ -37,6 +37,8 @@ namespace AppVentas.VISTA
 
         private void LblDetalleVenta_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            FrmProducto frmProducto = new FrmProducto();
+            frmProducto.ShowDialog();
         }
     }
 }
