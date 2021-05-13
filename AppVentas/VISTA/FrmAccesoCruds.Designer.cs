@@ -81,10 +81,10 @@ namespace AppVentas.VISTA
             this.LblDetalleVenta.AutoSize = true;
             this.LblDetalleVenta.Location = new System.Drawing.Point(163, 124);
             this.LblDetalleVenta.Name = "LblDetalleVenta";
-            this.LblDetalleVenta.Size = new System.Drawing.Size(106, 13);
+            this.LblDetalleVenta.Size = new System.Drawing.Size(16, 13);
             this.LblDetalleVenta.TabIndex = 3;
             this.LblDetalleVenta.TabStop = true;
-            this.LblDetalleVenta.Text = "Tabla Detalles Venta";
+            this.LblDetalleVenta.Text = "...";
             this.LblDetalleVenta.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LblDetalleVenta_LinkClicked);
             // 
             // pictureBox4
