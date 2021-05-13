@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dTUmuCTTHtJ0xaKkdXqG/0iiVrENcoMtyj3HZWG38kruEZZ1u2dxMXF2yoVILuTXKI5G0sISUcZPSPurRxqxwQ==",
+  "success": true,
+  "projectFilePath": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentas\\AppVentas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alvaro\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}
