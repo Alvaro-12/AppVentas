@@ -206,6 +206,7 @@ namespace AppVentas.VISTA
             this.BtnAccesos.TabIndex = 20;
             this.BtnAccesos.Text = "Acceder a las tablas";
             this.BtnAccesos.UseVisualStyleBackColor = true;
+            this.BtnAccesos.Click += new System.EventHandler(this.BtnAccesos_Click);
             // 
             // FrmVenta
             // 

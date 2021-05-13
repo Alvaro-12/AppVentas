@@ -22,5 +22,23 @@ namespace AppVentas.VISTA
             FrmUsuarios frmUsuarios = new FrmUsuarios();
             frmUsuarios.ShowDialog();
         }
+
+        private void LblCliente_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmCliente frmCliente = new FrmCliente();
+            frmCliente.ShowDialog();
+        }
+
+        private void LblDocumentos_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmDocumentos frmDocumentos = new FrmDocumentos();
+            frmDocumentos.ShowDialog();
+        }
+
+        private void LblDetalleVenta_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmDetalleVenta frmDetalleVenta = new FrmDetalleVenta();
+            frmDetalleVenta.ShowDialog();
+        }
     }
 }

@@ -153,11 +153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentas\\AppVentas.csproj",
+      "projectUniqueName": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentasgit\\AppVentas\\AppVentas.csproj",
       "projectName": "AppVentas",
-      "projectPath": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentas\\AppVentas.csproj",
+      "projectPath": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentasgit\\AppVentas\\AppVentas.csproj",
       "packagesPath": "C:\\Users\\Alvaro\\.nuget\\packages\\",
-      "outputPath": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentas\\obj\\",
+      "outputPath": "E:\\UNIVERSIDAD\\Ciclo 03\\Programacion 1\\ProyectoVenta\\AppVentasgit\\AppVentas\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

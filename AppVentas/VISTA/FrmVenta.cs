@@ -37,5 +37,11 @@ namespace AppVentas.VISTA
 
 
         }
+
+        private void BtnAccesos_Click(object sender, EventArgs e)
+        {
+            FrmAccesoCruds frmAccesoCruds = new FrmAccesoCruds();
+            frmAccesoCruds.ShowDialog();
+        }
     }
 }
