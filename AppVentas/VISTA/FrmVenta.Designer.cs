@@ -72,7 +72,7 @@ namespace AppVentas.VISTA
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(495, 27);
+            this.label3.Location = new System.Drawing.Point(606, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 13);
             this.label3.TabIndex = 2;
@@ -81,7 +81,7 @@ namespace AppVentas.VISTA
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(498, 68);
+            this.label4.Location = new System.Drawing.Point(609, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 3;
@@ -92,7 +92,7 @@ namespace AppVentas.VISTA
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(2, 234);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(741, 179);
+            this.dataGridView1.Size = new System.Drawing.Size(846, 277);
             this.dataGridView1.TabIndex = 4;
             // 
             // textBox1
@@ -111,28 +111,28 @@ namespace AppVentas.VISTA
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(20, 197);
+            this.textBox5.Location = new System.Drawing.Point(21, 197);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(84, 20);
             this.textBox5.TabIndex = 9;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(149, 197);
+            this.textBox6.Location = new System.Drawing.Point(150, 197);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(135, 20);
             this.textBox6.TabIndex = 10;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(306, 197);
+            this.textBox7.Location = new System.Drawing.Point(307, 197);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 11;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(425, 197);
+            this.textBox8.Location = new System.Drawing.Point(426, 197);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 12;
@@ -140,7 +140,7 @@ namespace AppVentas.VISTA
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 179);
+            this.label5.Location = new System.Drawing.Point(21, 179);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 13;
@@ -149,7 +149,7 @@ namespace AppVentas.VISTA
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(149, 178);
+            this.label6.Location = new System.Drawing.Point(150, 178);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(90, 13);
             this.label6.TabIndex = 14;
@@ -158,7 +158,7 @@ namespace AppVentas.VISTA
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(303, 177);
+            this.label7.Location = new System.Drawing.Point(304, 177);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(37, 13);
             this.label7.TabIndex = 15;
@@ -167,7 +167,7 @@ namespace AppVentas.VISTA
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(422, 177);
+            this.label8.Location = new System.Drawing.Point(423, 177);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 16;
@@ -185,7 +185,7 @@ namespace AppVentas.VISTA
             // comboBoxDocumento
             // 
             this.comboBoxDocumento.FormattingEnabled = true;
-            this.comboBoxDocumento.Location = new System.Drawing.Point(605, 24);
+            this.comboBoxDocumento.Location = new System.Drawing.Point(716, 24);
             this.comboBoxDocumento.Name = "comboBoxDocumento";
             this.comboBoxDocumento.Size = new System.Drawing.Size(121, 21);
             this.comboBoxDocumento.TabIndex = 18;
@@ -193,18 +193,18 @@ namespace AppVentas.VISTA
             // comboBoxCliente
             // 
             this.comboBoxCliente.FormattingEnabled = true;
-            this.comboBoxCliente.Location = new System.Drawing.Point(605, 68);
+            this.comboBoxCliente.Location = new System.Drawing.Point(716, 68);
             this.comboBoxCliente.Name = "comboBoxCliente";
             this.comboBoxCliente.Size = new System.Drawing.Size(121, 21);
             this.comboBoxCliente.TabIndex = 19;
             // 
             // BtnAccesos
             // 
-            this.BtnAccesos.Location = new System.Drawing.Point(605, 195);
+            this.BtnAccesos.Location = new System.Drawing.Point(716, 195);
             this.BtnAccesos.Name = "BtnAccesos";
             this.BtnAccesos.Size = new System.Drawing.Size(121, 23);
             this.BtnAccesos.TabIndex = 20;
-            this.BtnAccesos.Text = "Acceder a las tablas";
+            this.BtnAccesos.Text = "Informacion";
             this.BtnAccesos.UseVisualStyleBackColor = true;
             this.BtnAccesos.Click += new System.EventHandler(this.BtnAccesos_Click);
             // 
@@ -213,7 +213,7 @@ namespace AppVentas.VISTA
             this.AcceptButton = this.BtnBuscar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 414);
+            this.ClientSize = new System.Drawing.Size(852, 509);
             this.Controls.Add(this.BtnAccesos);
             this.Controls.Add(this.comboBoxCliente);
             this.Controls.Add(this.comboBoxDocumento);
