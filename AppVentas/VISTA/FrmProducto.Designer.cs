@@ -1,7 +1,7 @@
 ﻿
 namespace AppVentas.VISTA
 {
-    partial class FrmCliente
+    partial class FrmProducto
     {
         /// <summary>
         /// Required designer variable.
@@ -29,73 +29,67 @@ namespace AppVentas.VISTA
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TxtDUI = new System.Windows.Forms.TextBox();
+            this.TxtEstado = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.TxtId = new System.Windows.Forms.TextBox();
+            this.TxtIdProducto = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnEliminar = new System.Windows.Forms.Button();
             this.BtnActualizar = new System.Windows.Forms.Button();
             this.BtnGuardar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.TxtDireccion = new System.Windows.Forms.TextBox();
-            this.TxtNombre = new System.Windows.Forms.TextBox();
+            this.TxtPrecio = new System.Windows.Forms.TextBox();
+            this.TxtNombreProducto = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tbclienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sistema_ventasDataSet2 = new AppVentas.sistema_ventasDataSet2();
-            this.tb_clienteTableAdapter = new AppVentas.sistema_ventasDataSet2TableAdapters.tb_clienteTableAdapter();
-            this.DUICliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DireccionCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PrecioProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EstadoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbclienteBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sistema_ventasDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 14);
+            this.label4.Location = new System.Drawing.Point(16, 16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Lista de Clientes ";
+            this.label4.Size = new System.Drawing.Size(113, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Lista de Productos";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.TxtDUI);
+            this.panel1.Controls.Add(this.TxtEstado);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.TxtId);
+            this.panel1.Controls.Add(this.TxtIdProducto);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.BtnEliminar);
             this.panel1.Controls.Add(this.BtnActualizar);
             this.panel1.Controls.Add(this.BtnGuardar);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.TxtDireccion);
-            this.panel1.Controls.Add(this.TxtNombre);
+            this.panel1.Controls.Add(this.TxtPrecio);
+            this.panel1.Controls.Add(this.TxtNombreProducto);
             this.panel1.Controls.Add(this.label1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(452, 1);
+            this.panel1.Location = new System.Drawing.Point(454, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(262, 281);
-            this.panel1.TabIndex = 4;
+            this.panel1.Size = new System.Drawing.Size(306, 281);
+            this.panel1.TabIndex = 7;
             // 
-            // TxtDUI
+            // TxtEstado
             // 
-            this.TxtDUI.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDUI.Location = new System.Drawing.Point(86, 137);
-            this.TxtDUI.Name = "TxtDUI";
-            this.TxtDUI.Size = new System.Drawing.Size(164, 21);
-            this.TxtDUI.TabIndex = 11;
+            this.TxtEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEstado.Location = new System.Drawing.Point(131, 137);
+            this.TxtEstado.Name = "TxtEstado";
+            this.TxtEstado.Size = new System.Drawing.Size(164, 21);
+            this.TxtEstado.TabIndex = 11;
             // 
             // label6
             // 
@@ -103,25 +97,25 @@ namespace AppVentas.VISTA
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(13, 140);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 16);
+            this.label6.Size = new System.Drawing.Size(111, 16);
             this.label6.TabIndex = 10;
-            this.label6.Text = "DUI";
+            this.label6.Text = "Estado Producto ";
             // 
-            // TxtId
+            // TxtIdProducto
             // 
-            this.TxtId.Location = new System.Drawing.Point(86, 42);
-            this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(164, 20);
-            this.TxtId.TabIndex = 9;
+            this.TxtIdProducto.Location = new System.Drawing.Point(131, 42);
+            this.TxtIdProducto.Name = "TxtIdProducto";
+            this.TxtIdProducto.Size = new System.Drawing.Size(164, 20);
+            this.TxtIdProducto.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 49);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 13);
+            this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Id Cliente";
+            this.label5.Text = "Id Producto";
             // 
             // BtnEliminar
             // 
@@ -133,7 +127,6 @@ namespace AppVentas.VISTA
             this.BtnEliminar.TabIndex = 7;
             this.BtnEliminar.Text = "Eliminar";
             this.BtnEliminar.UseVisualStyleBackColor = true;
-            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // BtnActualizar
             // 
@@ -145,7 +138,6 @@ namespace AppVentas.VISTA
             this.BtnActualizar.TabIndex = 6;
             this.BtnActualizar.Text = "Actualizar";
             this.BtnActualizar.UseVisualStyleBackColor = true;
-            this.BtnActualizar.Click += new System.EventHandler(this.BtnActualizar_Click);
             // 
             // BtnGuardar
             // 
@@ -153,11 +145,10 @@ namespace AppVentas.VISTA
             this.BtnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.BtnGuardar.Location = new System.Drawing.Point(13, 171);
             this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(237, 34);
+            this.BtnGuardar.Size = new System.Drawing.Size(282, 34);
             this.BtnGuardar.TabIndex = 5;
             this.BtnGuardar.Text = "GUARDAR";
             this.BtnGuardar.UseVisualStyleBackColor = true;
-            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // label3
             // 
@@ -165,9 +156,9 @@ namespace AppVentas.VISTA
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(13, 110);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 16);
+            this.label3.Size = new System.Drawing.Size(108, 16);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Direccion";
+            this.label3.Text = "Precio Prroducto";
             // 
             // label2
             // 
@@ -175,25 +166,25 @@ namespace AppVentas.VISTA
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(10, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 16);
+            this.label2.Size = new System.Drawing.Size(114, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Nombre ";
+            this.label2.Text = "Nombre Producto";
             // 
-            // TxtDireccion
+            // TxtPrecio
             // 
-            this.TxtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDireccion.Location = new System.Drawing.Point(86, 107);
-            this.TxtDireccion.Name = "TxtDireccion";
-            this.TxtDireccion.Size = new System.Drawing.Size(164, 21);
-            this.TxtDireccion.TabIndex = 2;
+            this.TxtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtPrecio.Location = new System.Drawing.Point(131, 107);
+            this.TxtPrecio.Name = "TxtPrecio";
+            this.TxtPrecio.Size = new System.Drawing.Size(164, 21);
+            this.TxtPrecio.TabIndex = 2;
             // 
-            // TxtNombre
+            // TxtNombreProducto
             // 
-            this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombre.Location = new System.Drawing.Point(86, 73);
-            this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(164, 21);
-            this.TxtNombre.TabIndex = 1;
+            this.TxtNombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNombreProducto.Location = new System.Drawing.Point(131, 73);
+            this.TxtNombreProducto.Name = "TxtNombreProducto";
+            this.TxtNombreProducto.Size = new System.Drawing.Size(164, 21);
+            this.TxtNombreProducto.TabIndex = 1;
             // 
             // label1
             // 
@@ -201,9 +192,9 @@ namespace AppVentas.VISTA
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(4, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 16);
+            this.label1.Size = new System.Drawing.Size(182, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mantenimiento Clientes";
+            this.label1.Text = "Mantenimiento Productos";
             // 
             // dataGridView1
             // 
@@ -211,72 +202,54 @@ namespace AppVentas.VISTA
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IdCliente,
-            this.NombreCliente,
-            this.DireccionCliente,
-            this.DUICliente});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 30);
+            this.IDProducto,
+            this.NombreProducto,
+            this.PrecioProducto,
+            this.EstadoProducto});
+            this.dataGridView1.Location = new System.Drawing.Point(5, 32);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(443, 252);
-            this.dataGridView1.TabIndex = 3;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.TabIndex = 6;
             // 
-            // tbclienteBindingSource
+            // IDProducto
             // 
-            this.tbclienteBindingSource.DataMember = "tb_cliente";
-            this.tbclienteBindingSource.DataSource = this.sistema_ventasDataSet2;
+            this.IDProducto.HeaderText = "Id Productos";
+            this.IDProducto.Name = "IDProducto";
+            this.IDProducto.ReadOnly = true;
             // 
-            // sistema_ventasDataSet2
+            // NombreProducto
             // 
-            this.sistema_ventasDataSet2.DataSetName = "sistema_ventasDataSet2";
-            this.sistema_ventasDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.NombreProducto.HeaderText = "Nombre Productos";
+            this.NombreProducto.Name = "NombreProducto";
+            this.NombreProducto.ReadOnly = true;
             // 
-            // tb_clienteTableAdapter
+            // PrecioProducto
             // 
-            this.tb_clienteTableAdapter.ClearBeforeFill = true;
+            this.PrecioProducto.HeaderText = "Precio Productos";
+            this.PrecioProducto.Name = "PrecioProducto";
+            this.PrecioProducto.ReadOnly = true;
             // 
-            // DUICliente
+            // EstadoProducto
             // 
-            this.DUICliente.HeaderText = "DUI";
-            this.DUICliente.Name = "DUICliente";
-            this.DUICliente.ReadOnly = true;
+            this.EstadoProducto.HeaderText = "Estados Productos";
+            this.EstadoProducto.Name = "EstadoProducto";
+            this.EstadoProducto.ReadOnly = true;
             // 
-            // DireccionCliente
-            // 
-            this.DireccionCliente.HeaderText = "Direccion";
-            this.DireccionCliente.Name = "DireccionCliente";
-            this.DireccionCliente.ReadOnly = true;
-            // 
-            // NombreCliente
-            // 
-            this.NombreCliente.HeaderText = "NombreCliente";
-            this.NombreCliente.Name = "NombreCliente";
-            this.NombreCliente.ReadOnly = true;
-            // 
-            // IdCliente
-            // 
-            this.IdCliente.HeaderText = "IdCliente";
-            this.IdCliente.Name = "IdCliente";
-            this.IdCliente.ReadOnly = true;
-            // 
-            // FrmCliente
+            // FrmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 285);
+            this.ClientSize = new System.Drawing.Size(762, 286);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "FrmCliente";
+            this.Name = "FrmProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cliente";
-            this.Load += new System.EventHandler(this.FrmCliente_Load);
+            this.Text = "Productos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbclienteBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sistema_ventasDataSet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -286,25 +259,22 @@ namespace AppVentas.VISTA
 
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox TxtId;
+        private System.Windows.Forms.TextBox TxtEstado;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox TxtIdProducto;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BtnEliminar;
         private System.Windows.Forms.Button BtnActualizar;
         private System.Windows.Forms.Button BtnGuardar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox TxtDireccion;
-        private System.Windows.Forms.TextBox TxtNombre;
+        private System.Windows.Forms.TextBox TxtPrecio;
+        private System.Windows.Forms.TextBox TxtNombreProducto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox TxtDUI;
-        private sistema_ventasDataSet2 sistema_ventasDataSet2;
-        private System.Windows.Forms.BindingSource tbclienteBindingSource;
-        private sistema_ventasDataSet2TableAdapters.tb_clienteTableAdapter tb_clienteTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IdCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombreCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DireccionCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DUICliente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NombreProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PrecioProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EstadoProducto;
     }
 }
