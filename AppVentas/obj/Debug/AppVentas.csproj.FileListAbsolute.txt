@@ -36,3 +36,5 @@ E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.exe
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.pdb
 E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmProducto.resources
+E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmMenuVenta.resources
+E:\UNIVERSIDAD\Ciclo 03\Programacion 1\ProyectoVenta\AppVentasgit\AppVentas\obj\Debug\AppVentas.VISTA.FrmProductoss.resources

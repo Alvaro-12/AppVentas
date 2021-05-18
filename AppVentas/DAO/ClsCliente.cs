@@ -20,6 +20,7 @@ namespace AppVentas.DAO
             }
             return null;
         }
+        //*******************************************************************
         //***********************//
         public void SaveCliente(tb_cliente clienteSb)
         {
@@ -83,5 +84,18 @@ namespace AppVentas.DAO
                 MessageBox.Show(ex.ToString());
             }
         }
+        //*********************************************************************************
+         
+        public List<tb_cliente> cargarcombocliente() 
+        {
+            List<tb_cliente> Cliente = new List<tb_cliente>();
+            using (sistema_ventasEntities bd = new sistema_ventasEntities()) 
+            {
+                Cliente = bd.tb_cliente.ToList();
+
+            }
+                return null;
+        } 
+        
     }
 }

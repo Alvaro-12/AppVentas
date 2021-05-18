@@ -1,4 +1,5 @@
-﻿using AppVentas.MODEL;
+﻿using AppVentas.DAO;
+using AppVentas.MODEL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,20 +21,17 @@ namespace AppVentas.VISTA
 
         private void FrmVenta_Load(object sender, EventArgs e)
         {
-            using (sistema_ventasEntities bd = new sistema_ventasEntities()) {
-
-                var consultacliente = bd.tb_cliente.ToList();
-
-                comboBoxCliente.DataSource = consultacliente;
+            ClsCliente cliente = new ClsCliente();
+                comboBoxCliente.DataSource = cliente.CargaCliente();
                 comboBoxCliente.DisplayMember = "nombreCliente";
                 comboBoxCliente.ValueMember = "iDCliente";
 
-                var consultaDocumento = bd.tb_documento.ToList(); 
-                comboBoxDocumento.DataSource = consultaDocumento;
+            ClsDocumento clsDocumento = new ClsDocumento();
+                comboBoxDocumento.DataSource = clsDocumento.CargaDocumento();
                 comboBoxDocumento.DisplayMember = "nombreDocumento";
                 comboBoxDocumento.ValueMember = "iDDocumento";
             
-            }
+           
 
 
         }
@@ -42,6 +40,17 @@ namespace AppVentas.VISTA
         {
             FrmAccesoCruds frmAccesoCruds = new FrmAccesoCruds();
             frmAccesoCruds.ShowDialog();
+        }
+
+        private void comboBoxDocumento_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+            FrmProductoss buscar = new FrmProductoss();
+            buscar.Show();
         }
     }
 }

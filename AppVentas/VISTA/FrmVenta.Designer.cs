@@ -36,10 +36,10 @@ namespace AppVentas.VISTA
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.TxtId = new System.Windows.Forms.TextBox();
+            this.TxtNombrePro = new System.Windows.Forms.TextBox();
+            this.TxtPrecio = new System.Windows.Forms.TextBox();
+            this.TxtCantidad = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -48,6 +48,11 @@ namespace AppVentas.VISTA
             this.comboBoxDocumento = new System.Windows.Forms.ComboBox();
             this.comboBoxCliente = new System.Windows.Forms.ComboBox();
             this.BtnAccesos = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,9 +94,18 @@ namespace AppVentas.VISTA
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
             this.dataGridView1.Location = new System.Drawing.Point(2, 234);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(846, 277);
             this.dataGridView1.TabIndex = 4;
             // 
@@ -109,33 +123,33 @@ namespace AppVentas.VISTA
             this.textBox4.Size = new System.Drawing.Size(142, 20);
             this.textBox4.TabIndex = 8;
             // 
-            // textBox5
+            // TxtId
             // 
-            this.textBox5.Location = new System.Drawing.Point(21, 197);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(84, 20);
-            this.textBox5.TabIndex = 9;
+            this.TxtId.Location = new System.Drawing.Point(21, 197);
+            this.TxtId.Name = "TxtId";
+            this.TxtId.Size = new System.Drawing.Size(84, 20);
+            this.TxtId.TabIndex = 9;
             // 
-            // textBox6
+            // TxtNombrePro
             // 
-            this.textBox6.Location = new System.Drawing.Point(150, 197);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(135, 20);
-            this.textBox6.TabIndex = 10;
+            this.TxtNombrePro.Location = new System.Drawing.Point(150, 197);
+            this.TxtNombrePro.Name = "TxtNombrePro";
+            this.TxtNombrePro.Size = new System.Drawing.Size(135, 20);
+            this.TxtNombrePro.TabIndex = 10;
             // 
-            // textBox7
+            // TxtPrecio
             // 
-            this.textBox7.Location = new System.Drawing.Point(307, 197);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 11;
+            this.TxtPrecio.Location = new System.Drawing.Point(307, 197);
+            this.TxtPrecio.Name = "TxtPrecio";
+            this.TxtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.TxtPrecio.TabIndex = 11;
             // 
-            // textBox8
+            // TxtCantidad
             // 
-            this.textBox8.Location = new System.Drawing.Point(426, 197);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 12;
+            this.TxtCantidad.Location = new System.Drawing.Point(426, 197);
+            this.TxtCantidad.Name = "TxtCantidad";
+            this.TxtCantidad.Size = new System.Drawing.Size(100, 20);
+            this.TxtCantidad.TabIndex = 12;
             // 
             // label5
             // 
@@ -181,6 +195,7 @@ namespace AppVentas.VISTA
             this.BtnBuscar.TabIndex = 17;
             this.BtnBuscar.Text = "Buscar";
             this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // comboBoxDocumento
             // 
@@ -189,6 +204,7 @@ namespace AppVentas.VISTA
             this.comboBoxDocumento.Name = "comboBoxDocumento";
             this.comboBoxDocumento.Size = new System.Drawing.Size(121, 21);
             this.comboBoxDocumento.TabIndex = 18;
+            this.comboBoxDocumento.SelectedIndexChanged += new System.EventHandler(this.comboBoxDocumento_SelectedIndexChanged);
             // 
             // comboBoxCliente
             // 
@@ -208,6 +224,36 @@ namespace AppVentas.VISTA
             this.BtnAccesos.UseVisualStyleBackColor = true;
             this.BtnAccesos.Click += new System.EventHandler(this.BtnAccesos_Click);
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Codigo";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Nombre ";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Precio";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Cantidad";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Total";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
             // FrmVenta
             // 
             this.AcceptButton = this.BtnBuscar;
@@ -222,10 +268,10 @@ namespace AppVentas.VISTA
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.TxtCantidad);
+            this.Controls.Add(this.TxtPrecio);
+            this.Controls.Add(this.TxtNombrePro);
+            this.Controls.Add(this.TxtId);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
@@ -252,10 +298,7 @@ namespace AppVentas.VISTA
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox TxtCantidad;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -264,5 +307,13 @@ namespace AppVentas.VISTA
         private System.Windows.Forms.ComboBox comboBoxDocumento;
         private System.Windows.Forms.ComboBox comboBoxCliente;
         private System.Windows.Forms.Button BtnAccesos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        public System.Windows.Forms.TextBox TxtId;
+        public System.Windows.Forms.TextBox TxtNombrePro;
+        public System.Windows.Forms.TextBox TxtPrecio;
     }
 }

@@ -10,15 +10,18 @@ namespace AppVentas.DAO
 {
     class ClsProductos
     {
-       public List<tb_producto> Carga()
+       public List<tb_producto> Carga(string filtro)
         {
-            List<tb_producto> Lista;
+            List<tb_producto> Lista = new List<tb_producto>(); 
 
             using (sistema_ventasEntities bd = new sistema_ventasEntities())
             {
                 Lista = bd.tb_producto.ToList();
+                Lista = (from listadoproductos in bd.tb_producto
+                         where listadoproductos.nombreProducto.Contains(filtro)
+                         select listadoproductos).ToList();
             }
-            return null;
+            return Lista;
         }
 
         public void SaveProducto(tb_producto productoS)

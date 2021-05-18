@@ -1,6 +1,7 @@
 ﻿using AppVentas.DAO;
 using AppVentas.MODEL;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -57,9 +58,9 @@ namespace AppVentas.VISTA
             ClsProductos Producto = new ClsProductos();
             tb_producto TBPro = new tb_producto();
 
-             TBPro.nombreProducto = TxtNombreProducto.Text;
-             TBPro.precioProducto = TxtPrecio.Text;
-             TBPro.estadoProducto = TxtEstado.Text;
+            TBPro.nombreProducto = TxtNombreProducto.Text;
+            TBPro.precioProducto = TxtPrecio.Text;
+            TBPro.estadoProducto = TxtEstado.Text;
 
 
             Producto.SaveProducto(TBPro);
@@ -84,11 +85,11 @@ namespace AppVentas.VISTA
 
         private void BtnEliminar_Click(object sender, EventArgs e)
         {
-            ClsProductos cls= new ClsProductos();
+            ClsProductos cls = new ClsProductos();
             cls.DeletProducto(Convert.ToInt32(TxtIdProducto.Text));
             clear();
             Carga();
         }
     }
-
+   
 }
