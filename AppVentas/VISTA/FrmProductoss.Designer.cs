@@ -48,12 +48,14 @@ namespace AppVentas.VISTA
             this.id,
             this.Nombre,
             this.Precio});
-            this.DataProductos.Location = new System.Drawing.Point(12, 87);
+            this.DataProductos.Location = new System.Drawing.Point(-2, 153);
             this.DataProductos.Name = "DataProductos";
             this.DataProductos.ReadOnly = true;
-            this.DataProductos.Size = new System.Drawing.Size(580, 344);
+            this.DataProductos.Size = new System.Drawing.Size(776, 291);
             this.DataProductos.TabIndex = 0;
             this.DataProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.DataProductos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataProductos_CellDoubleClick);
+            this.DataProductos.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DataProductos_KeyDown);
             // 
             // id
             // 
@@ -75,7 +77,7 @@ namespace AppVentas.VISTA
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 48);
+            this.textBox1.Location = new System.Drawing.Point(12, 75);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(313, 20);
             this.textBox1.TabIndex = 1;
@@ -84,7 +86,7 @@ namespace AppVentas.VISTA
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 9);
+            this.label1.Location = new System.Drawing.Point(9, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 13);
             this.label1.TabIndex = 2;
@@ -94,7 +96,7 @@ namespace AppVentas.VISTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 447);
+            this.ClientSize = new System.Drawing.Size(772, 447);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.DataProductos);
